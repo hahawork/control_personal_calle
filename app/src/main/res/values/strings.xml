@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Grupo Valor</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_puntosdeventa">Registrar punto de venta nuevo</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="strTELEFONO">Teléfono</string>
+    <string name="strEMAIL">E-mail</string>
+
+    <string name="UBICACION_AUN_NO_DETERMINADA">Aún sin\ncoordenadas</string>
+    <string name="title_activity_historial">Historial</string>
+    <string name="title_activity_asistencias_pendientes_envio">Asistencias Pendientes de Envio
+    </string>
+    <string name="title_activity_camara">Cámara</string>
+    <string name="title_activity_mock_location_message">Alerta de Seguridad</string>
+    <string name="title_activity_configuracion">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="title_id_usuario">Código de Usuario</string>
+    <string name="codUsuario">codUsuario</string>
+    <string name="title_cliente_asignado">No. Cliente</string>
+    <string name="stClienteAsignadostr">stClienteAsignadostr</string>
+    <string name="nombUsuario">nombUsuario</string>
+    <string name="title_nombre_usuario">Nombre de Usuario</string>
+    <string name="title_soy_conductor">Medio Transporte Propio</string>
+    <string name="stSoyConductor">stSoyConductor</string>
+    <string name="title_campo_nousados">Campos que no usaré</string>
+    <string name="controles">controles</string>
+    <string name="title_radio_busqueda">Radio de Búsqueda de los PdV</string>
+    <string name="stradiopdv">stradiopdv</string>
+    <string name="chkNotifpdvCerca">chkNotifpdvCerca</string>
+    <string name="strepetNotific">strepetNotific</string>
+    <string name="chkBorrarEnviar">chkBorrarEnviar</string>
+    <string name="stMockLocation">stMockLocation</string>
+
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="title_activity_fotos_pendientes_envio">FotosPendientes de Envio</string>
+
+</resources>

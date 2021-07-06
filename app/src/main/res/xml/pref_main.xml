@@ -1,0 +1,97 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Usuario">
+
+        <Preference
+            android:key="@string/codUsuario"
+            android:summary="1.0"
+            android:title="@string/title_id_usuario" />
+
+        <Preference
+            android:key="@string/nombUsuario"
+            android:summary="@string/title_nombre_usuario"
+            android:title="@string/title_nombre_usuario" />
+
+        <Preference
+            android:key="@string/stClienteAsignadostr"
+            android:summary="Cliente asignado"
+            android:title="@string/title_cliente_asignado" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Pantalla Principal">
+
+        <SwitchPreference
+            android:checked="true"
+            android:defaultValue="true"
+            android:key="@string/stSoyConductor"
+            android:summary="Permite habilitar campos en la pantalla principal para el ingreso de datos relacionados con el KM de su medio de transporte"
+            android:title="@string/title_soy_conductor" />
+
+        <MultiSelectListPreference
+            android:dialogTitle="No ver en pantalla principal"
+            android:entries="@array/arrpref_ListControlesVisualizar"
+            android:entryValues="@array/arrpref_ListControlesVisualizar"
+            android:key="@string/controles"
+            android:summary="Seleccione  los campos que no usará."
+            android:title="@string/title_campo_nousados" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Ubicación GPS">
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/arrMedidasRadio"
+            android:entryValues="@array/arrMedidasNum"
+            android:key="@string/stradiopdv"
+            android:summary="Seleccione la distancia (en metros) para determinar el punto de venta más cercano a su dispositivo."
+            android:title="@string/title_radio_busqueda" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Punto de Venta">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/chkNotifpdvCerca"
+            android:summary="Esta opcion permite enviar notificaciones cuando esté cerca de un punto de venta, el gps siempre debera estar activado"
+            android:title="Notificarme proximidad" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:dependency="chkNotifpdvCerca"
+            android:entries="@array/arrEnviarNotificText"
+            android:entryValues="@array/arrEnviarNotificValue"
+            android:key="strepetNotific"
+            android:summary="Seleccione numero de notificaciones"
+            android:title="Veces" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Fotografia">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/chkBorrarEnviar"
+            android:summary="Esta opcion permite mantener o borrar la fotografia enviada desde la aplicacion, (si esta activa se borrarán); en algunos modelos puede haber duplicidad de fotos."
+            android:title="Borrar despues de enviar"></CheckBoxPreference>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Sobre la aplicación">
+        <Preference
+            android:key="stVersionApp"
+            android:summary="Version 1.0"
+            android:title="Grupo Valor SA."></Preference>
+        <Preference android:title="Grupo Valor Web">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.grupovalor.com.ni" />
+        </Preference>
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="Envianos tus comentarios o sugerencias a nuestro correo"
+            android:title="Enviar comentario/sugerencias" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

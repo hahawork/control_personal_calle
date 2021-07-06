@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Camara"
+    tools:showIn="@layout/activity_camara">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-16dp"
+            android:layout_marginBottom="55dp">
+
+            <LinearLayout
+                android:id="@+id/llFotos_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"></LinearLayout>
+
+        </ScrollView>
+
+        <SurfaceView
+            android:id="@+id/preview_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="55dp"
+            android:layout_toEndOf="@+id/scrollView"
+            android:layout_toRightOf="@+id/scrollView"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

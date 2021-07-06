@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrpref_ListControlesVisualizar">
+        <item>Transporte</item>
+        <item>Alimento</item>
+        <item>Hospedaje</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="arrMedidasRadio">
+        <item>Cero Mts.</item>
+        <item>Diez Mts.</item>
+        <item>Veinte Mts.</item>
+        <item>Treinta Mts.</item>
+        <item>Cincuenta Mts.</item>
+        <item>Cien Mts.</item>
+        <item>Doscientos Mts.</item>
+    </string-array>
+    <string-array name="arrEnviarNotificText">
+        <item>Uno</item>
+        <item>Dos</item>
+        <item>Tres</item>
+        <item>Cinco</item>
+        <item>Diez</item>
+    </string-array>
+
+    <string-array name="arrEnviarNotificValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="arrMedidasNum">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+
+</resources>

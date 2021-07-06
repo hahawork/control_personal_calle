@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_PdV"
+            android:icon="@drawable/ic_sucursales"
+            android:title="Puntos de Ventas" />
+        <item
+            android:id="@+id/nav_Configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_Historial"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="Historial"></item>
+
+    </group>
+
+
+    <item android:title="Sobre.">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Actualizar Version" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_ayuda"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Ayuda" />
+
+</menu>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/ib_photo_pendentes"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_send_image"
+        android:title="Fotos Pend."
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_descarg_pdv"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_db_actualizar"
+        android:title="Descarg. Pdv"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_enviarpendient"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_send"
+        android:title="Asist. Pend."
+        app:showAsAction="always" />
+
+</menu>
